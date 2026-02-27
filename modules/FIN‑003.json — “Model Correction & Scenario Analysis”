@@ -1,0 +1,26 @@
+{
+  "moduleId": "FIN-003",
+  "title": "Model Correction & Scenario Analysis",
+  "description": "Train interns to correct model errors, run scenarios, and validate outputs for Lewiston’s Option Energy Complex variants.",
+  "estimatedHours": 10,
+  "assignments": [
+    {
+      "assignmentId": "FIN-003-A1",
+      "title": "Scenario Buildout",
+      "description": "Build a scenario set (Base, Downside, Stress) and validate CFADS and DSCR outputs.",
+      "deliverables": [
+        "Scenario workbook",
+        "Validation memo"
+      ]
+    },
+    {
+      "assignmentId": "FIN-003-A2",
+      "title": "Model Corrections",
+      "description": "Identify and correct timing drifts, negative principal, and broken waterfall logic.",
+      "deliverables": [
+        "Corrected model",
+        "Change log"
+      ]
+    }
+  ]
+}
