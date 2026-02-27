@@ -1,0 +1,27 @@
+{
+  "moduleId": "ENG-003",
+  "title": "Regulator-Ready Technical Documentation",
+  "description": "Produce DOE/FERC-ready technical documentation using AI drafting, modular templates, and engineering reasoning.",
+  "estimatedHours": 7,
+  "assignments": [
+    {
+      "assignmentId": "ENG-003-A1",
+      "title": "FERC RSG Technical Narrative",
+      "description": "Draft a technical narrative for the Request for Staff Guidance (RSG) using AI and your provided templates.",
+      "deliverables": [
+        "Draft narrative (Markdown)",
+        "List of assumptions",
+        "AI-generated diagrams"
+      ]
+    },
+    {
+      "assignmentId": "ENG-003-A2",
+      "title": "Lewiston FEED Input Register",
+      "description": "Build a structured register of FEED inputs required for EPC engagement.",
+      "deliverables": [
+        "Register.xlsx",
+        "1-page summary"
+      ]
+    }
+  ]
+}
