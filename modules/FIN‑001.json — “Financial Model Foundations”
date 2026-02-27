@@ -1,0 +1,26 @@
+{
+  "moduleId": "FIN-001",
+  "title": "Financial Model Foundations",
+  "description": "Establish core literacy in the Lewiston financial model structure, including CFADS, debt schedule, and waterfall logic.",
+  "estimatedHours": 6,
+  "assignments": [
+    {
+      "assignmentId": "FIN-001-A1",
+      "title": "Model Structure Mapping",
+      "description": "Map the structure of the Lewiston financial model and identify all cross-sheet dependencies.",
+      "deliverables": [
+        "Dependency map (PNG/SVG)",
+        "1-page summary of model flow"
+      ]
+    },
+    {
+      "assignmentId": "FIN-001-A2",
+      "title": "Error Scan + Audit",
+      "description": "Run an audit for circular references, broken links, and timing drifts.",
+      "deliverables": [
+        "Audit log (Markdown)",
+        "List of corrections"
+      ]
+    }
+  ]
+}
