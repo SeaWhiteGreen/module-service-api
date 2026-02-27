@@ -1,0 +1,27 @@
+{
+  "moduleId": "ENG-002",
+  "title": "Digital Twin Starter Pack",
+  "description": "Construct the initial digital twin scaffolding for the Lewiston complex using open-source tools and AI-driven modeling.",
+  "estimatedHours": 10,
+  "assignments": [
+    {
+      "assignmentId": "ENG-002-A1",
+      "title": "RGL + Shiny Prototype",
+      "description": "Build a minimal RGL/Shiny interface showing site parcels, pipeline tie-in, and volumetric placeholders.",
+      "deliverables": [
+        "R script",
+        "Shiny app folder",
+        "Screen recording of the interface"
+      ]
+    },
+    {
+      "assignmentId": "ENG-002-A2",
+      "title": "Data Schema for Digital Twin",
+      "description": "Define the JSON schema for assets, parcels, constraints, and FEED inputs.",
+      "deliverables": [
+        "Schema.json",
+        "Schema documentation (Markdown)"
+      ]
+    }
+  ]
+}
