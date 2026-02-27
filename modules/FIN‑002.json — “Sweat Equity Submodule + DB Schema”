@@ -1,0 +1,27 @@
+{
+  "moduleId": "FIN-002",
+  "title": "Sweat Equity Submodule + DB Schema",
+  "description": "Build the sweat equity submodule and define the database schema that gates access to the main financial models.",
+  "estimatedHours": 8,
+  "assignments": [
+    {
+      "assignmentId": "FIN-002-A1",
+      "title": "Sweat Equity Schema",
+      "description": "Define the JSON and SQL schema for sweat equity tracking.",
+      "deliverables": [
+        "schema.json",
+        "schema.sql",
+        "Markdown explanation"
+      ]
+    },
+    {
+      "assignmentId": "FIN-002-A2",
+      "title": "Integration Test",
+      "description": "Demonstrate how the sweat equity submodule gates access to the main model.",
+      "deliverables": [
+        "Integration test script",
+        "Flow diagram"
+      ]
+    }
+  ]
+}
