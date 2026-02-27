@@ -1,0 +1,27 @@
+{
+  "moduleId": "ENG-001",
+  "title": "Lewiston Phase-1 Technical Foundations",
+  "description": "Establish core technical literacy for modeling, siting, and workflow execution for the Lewiston Energy Resilience Complex.",
+  "estimatedHours": 8,
+  "assignments": [
+    {
+      "assignmentId": "ENG-001-A1",
+      "title": "Pipeline Access Constraint Model",
+      "description": "Build a constraint map for pipeline access using open-source GIS and AI tools.",
+      "deliverables": [
+        "GeoJSON of pipeline corridors",
+        "Constraint heatmap (PNG)",
+        "Short technical memo (1–2 pages)"
+      ]
+    },
+    {
+      "assignmentId": "ENG-001-A2",
+      "title": "Modular Workflow Diagram",
+      "description": "Use AI tools to generate a modular workflow diagram for Phase-1 siting and FEED readiness.",
+      "deliverables": [
+        "Workflow diagram (PNG/SVG)",
+        "Narrative explanation (Markdown)"
+      ]
+    }
+  ]
+}
