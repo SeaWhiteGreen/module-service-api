@@ -1,0 +1,153 @@
+/* ------------------------------
+   Global Reset & Base Styles
+------------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f9fb;
+  color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ------------------------------
+   Crest Logo
+------------------------------ */
+.crest-container {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0 0 0;
+}
+
+.crest-logo {
+  height: 70px;
+  opacity: 0.95;
+}
+
+/* ------------------------------
+   Header
+------------------------------ */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d9e2ec;
+}
+
+.brand-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-name {
+  font-size: 28px;
+  font-weight: bold;
+  color: #004b6b;
+}
+
+.brand-tagline {
+  font-size: 14px;
+  color: #4a6c82;
+}
+
+.portal-titles h1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #003f5c;
+  text-align: right;
+}
+
+.portal-titles h2 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #4a6c82;
+  text-align: right;
+}
+
+/* ------------------------------
+   Layout Wrapper
+------------------------------ */
+.layout {
+  display: flex;
+  flex: 1;
+  padding: 0;
+}
+
+/* ------------------------------
+   Sidebar
+------------------------------ */
+.sidebar {
+  width: 240px;              /* FIXED WIDTH — preserves layout */
+  background-color: #ffffff;
+  border-right: 1px solid #d9e2ec;
+  padding: 20px;
+}
+
+.sidebar-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #003f5c;
+}
+
+.module-list {
+  list-style: none;
+}
+
+.module-list li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #eef4f8;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.module-list li:hover {
+  background-color: #d9e8f0;
+}
+
+/* ------------------------------
+   Main Content
+------------------------------ */
+.content {
+  flex: 1;
+  padding: 30px;
+}
+
+.module-container {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 6px;
+  border: 1px solid #d9e2ec;
+  min-height: 300px;
+}
+
+.module-container p {
+  font-size: 16px;
+  color: #4a6c82;
+}
+
+/* ------------------------------
+   Footer
+------------------------------ */
+.footer {
+  background-color: #ffffff;
+  border-top: 1px solid #d9e2ec;
+  padding: 12px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #4a6c82;
+}
+
+.footer-divider {
+  margin: 0 8px;
+}
