@@ -1,0 +1,55 @@
+{
+  "moduleId": "ENG-LERC-STC-002",
+  "project": "LERC",
+  "category": "Engineering",
+  "domain": "STC",
+
+  "title": "LNG Tank Foundation & Structural Siting Basis",
+  "description": "Establishes the structural, geotechnical, and foundation design basis for LNG tank siting using API 620/625, NFPA 59A, and site-specific geotechnical constraints. Covers soil conditions, frost depth, seismic considerations, settlement, and integration with tank geometry and site layout.",
+
+  "assignments": [
+    "Technical Brief (1–2 pages summarizing assumptions, methodology, decisions)",
+    "Source Data Appendix (tables, references, calculations)",
+    "QA/QC Checklist (completeness, accuracy, cross-module consistency)",
+    "Executive Summary Slide (1 slide, DOE/FERC/Planning Board ready)",
+    "Dependency Map (inputs required, outputs produced, upstream/downstream modules)",
+    "Risk Notes (technical, financial, regulatory, schedule risks)",
+    "Open Questions Log (items requiring supervisor review)"
+  ],
+
+  "deliverables": [
+    "Version-Controlled Working File (Excel, GIS, CAD, RGL/Shiny, or simulation file)",
+    "GIS Folder (parcel maps, routing, hazard zones)",
+    "CAD/Drawings Folder (layouts, PFDs, P&IDs, block diagrams)",
+    "Financial Model Folder (CapEx, O&M, dispatch, tariff models)",
+    "Regulatory Library (NFPA 59A, FERC, DOE NEPA, zoning codes)",
+    "Digital Twin Repository (RGL/Shiny models, 3D assets)",
+    "EPC Vendor Specs (vaporizer, compressor, HRSG, GT, BOP)",
+    "Public Data Sources (NOAA, USGS, DOT, grid operators)"
+  ],
+
+  "sourceMaterial": [
+    "Project Data Room (01_Siting, 02_Process, 03_Systems, 04_DigitalTwin, 05_Safety, 06_Documentation, 07_Financial, 08_Regulatory)",
+    "GIS Folder (parcel maps, routing, hazard zones)",
+    "CAD/Drawings Folder (layouts, PFDs, P&IDs, block diagrams)",
+    "Financial Model Folder (CapEx, O&M, dispatch, tariff models)",
+    "Regulatory Library (NFPA 59A, FERC, DOE NEPA, zoning codes)",
+    "Digital Twin Repository (RGL/Shiny models, 3D assets)",
+    "EPC Vendor Specs (vaporizer, compressor, HRSG, GT, BOP)",
+    "Public Data Sources (NOAA, USGS, DOT, grid operators)",
+    "Digital twin base file: LERC_DTW_BaseModel.rgl",
+    "Financial model: LERC_FinModel_v3.xlsx"
+  ],
+
+  "referenceLinks": [
+    "https://www.energy.gov/nepa",
+    "https://www.ferc.gov/industries-data/natural-gas/lng",
+    "https://www.iso-ne.com/system-planning/interconnection/",
+    "https://www.lewistonmaine.gov/",
+    "https://www.nfpa.org/codes-and-standards/all-codes-and-standards/list-of-codes-and-standards/detail?code=59A",
+    "https://www.nhc.noaa.gov/",
+    "https://www.prepa.com/",
+    "https://www.ree.es/en",
+    "https://earthquake.usgs.gov/"
+  ]
+}
