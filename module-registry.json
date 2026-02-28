@@ -1,0 +1,10 @@
+// module-registry.js
+// Canonical dynamic registry — supports all projects and domains
+
+const ModuleRegistry = {
+  ENG: {},
+  FIN: {},
+  REG: {}
+};
+
+export default ModuleRegistry;
